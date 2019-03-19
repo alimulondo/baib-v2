@@ -6,8 +6,8 @@
 
 body {
   font-family: 'Lora';
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 23, 15, 0.65))), url("../img/about.jpg");
-  background: linear-gradient(rgba(47, 23, 15, 0.65)), url("../img/about.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(00, 00, 00, 0))), url("../img/newpic.jpg");
+  background: linear-gradient(rgba(00, 00, 00, 0)), url("../img/newpic.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -254,4 +254,8 @@ p {
 
 .font-weight-light {
   font-weight: 100 !important;
+}
+
+.txt-collor{
+  color: #a40033;
 }
