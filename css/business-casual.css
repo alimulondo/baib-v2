@@ -46,7 +46,7 @@ p {
 
 .site-heading .site-heading-lower {
   font-size: 2.5rem;
-  font-weight: 100;
+  /*font-weight: 100;*/
   line-height: 2rem;
 }
 
@@ -173,7 +173,7 @@ p {
     z-index: 0;
   }
   .about-heading .about-heading-content {
-    margin-top: -5rem;
+    margin-top: 1rem;
     position: relative;
     z-index: 1;
   }
@@ -258,4 +258,40 @@ p {
 
 .txt-collor{
   color: #a40033;
+  font-weight: bolder;
+}
+
+.pb{
+  padding-bottom: 1rem;
+}
+.sv-txt{
+  color: #a40033;
+
+
+}
+a.sv-txt:hover{
+  text-decoration-style : none;
+}
+
+.ck{
+
+}
+
+.ck a:hover{
+  text-decoration-style : none;
+  text-underline-position: none;
+}
+
+.pophead{
+  background-color: white;
+  color: blue;
+}
+
+.popbody{
+  background-color: white;
+
+}
+
+.poppad{
+  padding: 8px;
 }
