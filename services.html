@@ -21,6 +21,8 @@
   <link href="css/business-casual.css" rel="stylesheet">
   <link href="vendor/custombox/css/custombox.min.css" rel="stylesheet">
   <link href="vendor/custombox/css/jquery.css" rel="stylesheet">
+  <link href="css/chat.css" rel="stylesheet">
+  
 
 </head>
 
@@ -197,7 +199,12 @@
     </div>
     </div>
   </section>
-
+<div class="chat-box finger">
+<div class="chat-closed"> Chat Now </div>
+<div class="chat-header hide"><div class="box"></div>Online Support</div>
+<div class="chat-content hide">
+</div>
+</div>
   
 
   <footer class="footer text-faded text-center py-5">
@@ -219,7 +226,10 @@
     africanCulinary();
     fullPackage();
     internationalCuisine();
+    $(document).ready(function(){
+   chatfun();});
    </script>
+
 
 </body>
 

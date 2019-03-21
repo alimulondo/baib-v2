@@ -59,3 +59,15 @@ function internationalCuisine(){
     return false;
 });
 }
+
+function chatfun(){
+	$(".chat-closed").on("click",function(e){
+        $(".chat-header,.chat-content").removeClass("hide");
+        $(this).addClass("hide");
+    });
+
+    $(".chat-header").on("click",function(e){
+        $(".chat-header,.chat-content").addClass("hide");
+        $(".chat-closed").removeClass("hide");
+    });
+}
