@@ -67,7 +67,7 @@ p {
 
 .section-heading .section-heading-lower {
   display: block;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 100;
 }
 
@@ -294,4 +294,22 @@ a.sv-txt:hover{
 
 .poppad{
   padding: 8px;
+}
+
+.ctnhead{
+    font-size: 14px important; 
+}
+
+.ctnstep{
+    font-weight: bolder;
+}
+
+.ctmstlst > li{
+  list-style: none;
+
+}
+
+.ctmlink a:hover{
+  text-decoration: none
+
 }
